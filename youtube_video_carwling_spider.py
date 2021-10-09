@@ -26,7 +26,7 @@ class YoutubeVideoCarwling(Base):
 	}
 	
 	def prod(self):
-		with open('/home/worker/ze.li/video.csv') as f:
+		with open('/home/worker/ze.ll/video.csv') as f:
 			for i in f:
 				url = []
 				page = 1
